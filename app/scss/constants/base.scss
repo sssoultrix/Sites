@@ -20,3 +20,39 @@ a {
         color: $link-hover;
     }
 }
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 6px;
+    width: 178px;
+    height: 51px;
+    background: #118da8;
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+
+    &:hover {
+        background: #06829e;
+    }
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
